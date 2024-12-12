@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23025947230",
+    "project_id": "transformer-project-6b6d9",
+    "storage_bucket": "transformer-project-6b6d9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23025947230:android:dce5efbf9a048756a49acf",
+        "android_client_info": {
+          "package_name": "com.example.transformerecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUuGZ5t_AuH0Crd9rtjoo3a7IyRrt3ZKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
