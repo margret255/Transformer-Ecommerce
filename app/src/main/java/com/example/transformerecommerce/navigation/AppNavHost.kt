@@ -9,6 +9,8 @@ import com.example.transformerecommerce.pages.HomeScreen
 import com.example.transformerecommerce.pages.LoginScreen
 import com.example.transformerecommerce.pages.RegistrationScreen
 import androidx.navigation.compose.composable
+import com.example.transformerecommerce.pages.AddProductsScreen
+import com.example.transformerecommerce.pages.ViewProductsScreen
 
 @Composable
 fun AppNavHost(
@@ -30,5 +32,13 @@ fun AppNavHost(
         composable(LOGIN_URL) {
             LoginScreen(navHostController)
         }
+        composable(ADD_PRODUCTS_URL){
+            AddProductsScreen(navHostController)
+
+        }
+        composable(VIEW_PRODUCTS_URL) {
+            ViewProductsScreen(navHostController)
+        }
     }
 }
+
