@@ -26,17 +26,4 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-// RegistrationScreen
-
-       // Variables= - name, email, password
-        // Buttons= - Register - Login
-
-// LoginScreen
-
-    // Variables=- email, password
-   // Buttons= - Login - Register
-
-// HomeScreen
-
-// - Welcome message text
 
