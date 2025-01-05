@@ -69,7 +69,7 @@ fun RegistrationScreen(navController:NavHostController){
         Button(onClick = {
             navController.navigate(LOGIN_URL)
         }) {
-            Text(text="Login instead")
+            Text(text="Login")
         }
 
     }
