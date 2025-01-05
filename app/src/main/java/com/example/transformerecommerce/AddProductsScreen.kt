@@ -54,7 +54,7 @@ fun AddProductsScreen(navContrroller: NavHostController){
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text),
         label = { Text(text="Enter product name...")}
     )
-    Spacer(modifier=Modifier.height(30.dp))
+    Spacer(modifier=Modifier.height(35.dp))
     OutlinedTextField(
         value = productQuantity,
         onValueChange = {productQuantity=it},
