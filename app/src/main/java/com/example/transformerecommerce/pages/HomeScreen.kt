@@ -16,6 +16,6 @@ fun  HomeScreen(navController: NavHostController){
     Column (modifier=Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally){
         Spacer(modifier = Modifier.height(50.dp))
-        Text(text = "Welcome home")
+        Text(text = "Welcome to our site")
     }
 }
